@@ -7,6 +7,8 @@ import org.w3c.dom.events.EventListener
 import org.w3c.dom.get
 import kotlin.browser.document
 
+fun testCallMe() = callMe()
+
 fun myApp() {
     val div = document.createElement("div") as HTMLDivElement
     val listener = EventListener {}

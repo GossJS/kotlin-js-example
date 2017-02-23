@@ -3,6 +3,8 @@ package sample
 import org.w3c.dom.HTMLDivElement
 import kotlin.browser.document
 
+internal fun callMe() = "Hello"
+
 fun myApp() {
     val div = document.getElementById("app") as HTMLDivElement
     val form = loginForm(loginAction(div))
